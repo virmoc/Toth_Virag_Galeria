@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    background-color:saddlebrown;
+    margin: auto;
+}
+
+main{
+    width: 80%;
+    background-color: bisque;
+    padding: auto;
+    margin: auto;
+    border: 2px solid rgb(71, 29, 1);
+}
+button{
+    background-color:rgb(255, 169, 108);
+    margin: auto;
+    border: 2px solid rgb(71, 29, 1);
+}
+
+div{
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius:10px;
+    border: 2px solid rgb(71, 29, 1);
+  }
+
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-gap: 10px;
+    margin:auto;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin:auto;
+}
+#galeria{
+    padding: 10px;
+}
+.kartyak{
+    padding: 10px;
+}
